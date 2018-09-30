@@ -419,15 +419,20 @@ input:-webkit-autofill:focus {
     font-size: 25px;
     text-align: center;
     margin-bottom: 60px;
-    line-height: 1.4; 
+    line-height: 1.4;
     width:100%;
 }
 
 .screen-slider .item {
-    background: url('images/mobile2.png') no-repeat scroll center center / auto 100%;
+    /*background: url('images/mobile2.png') no-repeat scroll center center / auto 100%;*/
     padding: 56px 22px;
     display: inline-block;
     margin: auto;
+}
+.item{
+    float: left;
+    width: 30%;
+    margin: 1%;
 }
 
 .screen-slider.owl-carousel .owl-item {
@@ -460,6 +465,12 @@ input:-webkit-autofill:focus {
     top: 12px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%)
+}
+/**
+ * story board
+**/
+#story-board img{
+    height: 100%;
 }
 
 /**
