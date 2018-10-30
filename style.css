@@ -263,7 +263,7 @@ input:-webkit-autofill:focus {
 **/
 
 .box {
-    padding: 50px 30px;
+    padding: 20px 30px;
     text-align: center;
     -webkit-box-shadow: 0 0 0 0 #ffffff;
     box-shadow: 0 0 0 0 #ffffff;
@@ -287,8 +287,7 @@ input:-webkit-autofill:focus {
 }
 
 .box .box-icon {
-    height: 160px;
-    margin-bottom: 20px;
+    height: 230px;
 }
 
 .box .box-icon img {
@@ -467,9 +466,28 @@ input:-webkit-autofill:focus {
     transform: translateX(-50%)
 }
 /**
+ * efekty
+**/
+.efekty{
+    padding-top: 120px;
+}
+/**
  * story board
 **/
 #story-board img{
+    height: 100%;
+}
+
+/*dennik*/
+.dennik{
+    padding-top: 120px;
+}
+.dennik .den{
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.diary_image{
     height: 100%;
 }
 
